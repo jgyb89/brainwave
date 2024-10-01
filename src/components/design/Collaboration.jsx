@@ -1,6 +1,10 @@
+// This file provides decorative elements for the Collaboration section.
+// It exports a `RightCurve` component, which adds a curved SVG graphic on the right side.
+
 import { curve1, curve2 } from "../../assets";
 
 export const RightCurve = () => {
+  // Render a decorative curve on the right side
   return (
     <div className="hidden absolute top-1/2 left-full w-[10.125rem] -mt-1 ml-10 pointer-events-none xl:block">
       <img src={curve2} width={162} height={76} alt="Curve 2" />
