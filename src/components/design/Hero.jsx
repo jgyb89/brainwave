@@ -112,3 +112,5 @@ export const BackgroundCircles = ({ parallaxRef }) => {
     </div>
   );
 };
+
+//The `MouseParallax` effect is imported from the "react-just-parallax" library and is used to create interactive, visually engaging animations that react to the user's mouse movements. The parallax effect moves elements at different speeds relative to the mouse position, creating a depth effect. The `parallaxRef` is passed as a reference to the container, allowing the parallax to control the movement of child elements within the defined container. In this example, small gradient-colored balls inside concentric circles animate based on the user's mouse movements, giving a sense of floating or drifting within the hero section's background. The component also leverages state to manage the animation's timing and ensure that transitions occur only after the component has been mounted.
