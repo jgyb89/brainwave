@@ -71,15 +71,11 @@ const Header = () => {
         >
           New account
         </a>
-        <Button classNanme="hidden lg:flex" href="#login">
+        <Button classNanme="hidden lg:flex pl-10" href="#login">
           Sign in
         </Button>
 
-        <Button
-          className="ml-auto lg:hidden"
-          px="px-3"
-          onClick={toggleNavigation}
-        >
+        <Button className="ml-4 lg:hidden" px="px-3" onClick={toggleNavigation}>
           <MenuSvg openNavigation={openNavigation} />
         </Button>
       </div>
